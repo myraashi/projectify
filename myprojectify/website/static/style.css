@@ -1,0 +1,85 @@
+* {
+    font-family: Poppins;
+}
+
+.text-box {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: #241a57;
+    backdrop-filter: blur(8px);
+    position: absolute;
+    right: 15em; 
+    top: 2.5em;
+
+}
+.my-center {
+    margin: 0 auto;
+}
+.my-center-btn {
+    display: inline-block;
+    width: auto;
+    margin: 0 auto !important;
+}
+.cont {
+    padding: 0 auto;
+}
+
+.primaryy{
+    background-color: #110729;
+}
+
+.marginn {
+    padding: 0 10%;
+}
+
+.anchor {
+    text-decoration: none;
+    color: white;
+}
+:hover .anchor {
+    text-decoration: none;
+    color: white;
+}
+.containerr {
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    background-color: #241a57;
+    position: relative;
+}
+
+.colorr {
+    color: yellow;
+}
+.left {
+    width: 40%;
+    position: absolute;
+    top: 4em;
+    left: 3em;
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.textarea-mine {
+    width: 40em;
+    background-color: #110729;
+    padding: 1em;
+    color: white;
+    border: solid yellow;
+}
+
+.containerr-2 {
+    position: relative;
+    padding: 2.4em;
+    margin: auto 10% 2em;
+}
+
+.title-mine {
+    font-size: 1.2em;
+    margin: 2em 0 1em;
+}
+
+.custom-btn {
+    margin: 2em 0;
+
+}

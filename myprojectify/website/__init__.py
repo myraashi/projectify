@@ -10,6 +10,10 @@ def create_app():
     app.config['SECRET_KEY'] = 'ABCDEFGH IJKLMNI'
     app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{DB_NAME}'
     db.init_app(app)
+
+    login_manager  = LoginManager()
+    login_manager.login_view = 'auth.login'
+    
     from .views import views
     from .auth import auth
 
